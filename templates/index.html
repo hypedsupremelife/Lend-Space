@@ -1,0 +1,59 @@
+<main>
+  <header>
+    <title>Lend-A-Space | Home</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='main.css') }}">
+    <h1 id="logo"><a href="">Lend-A-Space</a></h1>
+    <nav>
+      <ul>
+        <li class="active"><a href="/">Home</a></li>
+        <li><a href="/rent">Rent a Lot</a></li>
+        <li><a href="/submit">Submit a Lot</a></li>
+        <li><a href="/account">Account</a></li>
+      </ul>
+    </nav>
+    <nav class="responsive">
+      <span class="open">Navigation</span>
+      <ul>
+        <li class="active"><a href="/">Home</a></li>
+        <li><a href="/rent">Rent a Lot</a></li>
+        <li><a href="/submit">Submit a Lot</a></li>
+        <li><a href="/account">Account</a></li>
+      </ul>
+    </nav>
+    <form action="" class="search">
+      <input type="submit" value="" />
+      <input type="search" placeholder="Search..." />
+    </form>
+  </header><br>
+
+  <section class="product grid1">
+      <img src="{{ url_for('static', filename='LENDALOTPSD.jpg') }}" alt="" style="height:272px;width:330px" />
+      <div class="info">
+        <h1>Why</h1>
+        <span class="size">There is an ongoing problem with overflowed parking during events like concerts, conventions, or even hackathons.
+            Our reasoning is to alleviate the hassle of parking overflow for event organization.</span>
+        <span class="price"></span>
+      </div>
+    </section>
+
+  <section class="hero">
+    <div class="container">
+    <img src="https://dz5vhvq2e26ss.cloudfront.net/media/image/7595667854e9da321.01809399.jpg"/>
+    <div class="centered"><font color="#cfe4f7"><b><u>Limited parking. Limitless possibility.</u></b></font></div>
+    </div>
+  </section>
+
+
+  <footer>
+    <h4>Lend-A-Space</h4>
+    <ul class="social">
+      <li><a href=""><img src="https://i.imgur.com/xUT72NF.png" alt="" /></a></li>
+      <li><a href=""><img src="https://i.imgur.com/yWRhsGj.png" alt="" /></a></li>
+      <li><a href=""><img src="https://i.imgur.com/xpE7R2R.png" alt="" /></a></li>
+      <li><a href=""><img src="https://i.imgur.com/feGu0Ls.png" alt="" /></a></li>
+    </ul>
+  </footer>
+</main>
